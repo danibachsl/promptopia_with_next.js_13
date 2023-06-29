@@ -31,9 +31,9 @@ const MyProfile = () => {
     }
 
   return (
-    <MyProfile 
+    <Profile 
         name="My"
-        description="Welcome to your personalized page"
+        desc="Welcome to your personalized page"
         data={posts}
         handleEdit={handleEdit}
         handleDelete={handleDelete}
